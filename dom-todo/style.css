@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #edf0f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.form form {
+  display: inline-block;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+#app {
+  padding: 25px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.form button {
+  background: #43bc70;
+  padding: 8px 12px;
+
+  color: #fff;
+  border: 0;
+}
+
+#tarefas button {
+  display: inline-block;
+  background: tomato;
+  font-size: 14px;
+  border: 0;
+  color: #fff;
+  margin-left: 5px;
+}
+
+#tarefas span {
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
